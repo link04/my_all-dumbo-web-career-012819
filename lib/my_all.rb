@@ -6,5 +6,7 @@ def my_all?(collection)
     yield collection[i]
     i = i + 1
   end
-  return false
+  
+  return i != 0 ? true : false
+  
 end
