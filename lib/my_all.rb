@@ -7,6 +7,6 @@ def my_all?(collection)
     i = i + 1
   end
   
-  return i != 0 ? true : false
+  return i > 0 ? true : false
   
 end
